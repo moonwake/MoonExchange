@@ -9,12 +9,10 @@ import toast from "react-hot-toast";
 import AccountContent from "./components/AccountContent";
 
 interface AccountProps {
-  children: React.ReactNode;
   className?: string; 
 }
 
 const Account: React.FC<AccountProps> = ({
-  children,
   className,
 }) => {
 
